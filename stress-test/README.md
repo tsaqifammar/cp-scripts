@@ -21,3 +21,7 @@
    ```
    > stress [n] 0
    ```
+
+## Video Guide + Demo
+
+Link: https://youtu.be/qtJC0DONFXw
