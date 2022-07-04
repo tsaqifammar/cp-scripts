@@ -8,16 +8,17 @@ Given a sequence a1, a2, ..., an. Sort it non-decreasingly.
 */
  
 int main() {
-    int n;
-    cin >> n;
+  int n;
+  cin >> n;
 
-    int arr[n];
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
+  int arr[n];
+  for (int i = 0; i < n; i++)
+    cin >> arr[i];
 
-    sort(arr, arr + n);
+  sort(arr, arr + n);
 
-    for (int i = 0; i < n; i++)
-        cout << arr[i] << " \n"[i == n-1];
+  // print arr seperated by space, with newline at the end
+  for (int i = 0; i < n; i++)
+    cout << arr[i] << " \n"[i == n-1];
 }
 
