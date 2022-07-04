@@ -23,6 +23,10 @@ A simple python script to generate multiple test cases in a matter of seconds fo
 	> python gen_tc.py [n] [k]
 	```
 
+## Video Demo
+
+Link: https://youtu.be/F_1HC6n6TAM
+
 ## Example of Usage
 
 Generate 15 test cases, starting from test case #6 :
