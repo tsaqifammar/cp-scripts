@@ -3,6 +3,7 @@
 To run, have your script in your test case folder like this:
 
 ```
+your_folder
 L replace.py
 L 1.in
 L 1.ans
