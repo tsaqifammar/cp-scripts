@@ -1,4 +1,4 @@
-# Replace CLRF with LF
+# Replace CRLF with LF
 
 To run, have your script in your test case folder like this:
 
