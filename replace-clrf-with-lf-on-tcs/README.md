@@ -1,20 +1,23 @@
 # Replace CRLF with LF
 
+This script will replace CRLF with LF in files with extensions `.in` and `.ans`.
+
+# How to use
+
 To run, have your script in your test case folder like this:
 
 ```
 your_folder
 L replace.py
-L 1.in
-L 1.ans
-L 2.in
-L 2.ans
-L ...
-L n.in
-L n.ans
+L 1easy.in
+L 1easy.ans
+L 2easy.in
+L 2easy.ans
+L 1hard.in
+L 1hard.ans
 ```
 
-Run this script to get started:
+Run the script:
 ```
-> python replace.py 1 [n]
+> python replace.py
 ```
