@@ -9,7 +9,7 @@ The generated files can seamlessly integrate with various programming platforms 
 ```bash
 pip install xmltodict
 ```
-2. Place both the script (`parse-tc-moodle.py`) and your Moodle XML file in the same directory.
+2. Place both the script (`extract-tc-xml-moodle.py`) and your Moodle XML file in the same directory.
 3. Modify the `file_name` variable within the script to match the name of your XML file.
 4. Run the script using the following command:
 ```bash
